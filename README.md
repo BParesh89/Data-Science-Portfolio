@@ -15,7 +15,7 @@ This [competetion](https://www.kaggle.com/c/ga-customer-revenue-prediction) was 
 
 
 #### Costa Rican Household Poverty Level Prediction
-This [competetion](https://www.kaggle.com/c/costa-rican-household-poverty-prediction) was hosted by Inter-American Development Bank to predict the poverty level of people in Costa Rica to make sure the right people are given enough aid.It was a multi-class classification problem. In this project, I did feature engineering(making new features using existing features, basically interaction features) and logistic regerssion for classfication. Evaluation metrics used is F1-score. Kernel can be found [here](https://www.kaggle.com/bparesh/costa-rican-poverty-logistic-model-425lb). Also, my rank was 72 in this competetion.
+This [competetion](https://www.kaggle.com/c/costa-rican-household-poverty-prediction) was hosted by Inter-American Development Bank to predict the poverty level of people in Costa Rica to make sure the right people are given enough aid.It was a multi-class classification problem. In this project, I did exploratory data analysis,feature engineering(making new features using existing features, basically interaction features) and used logistic regerssion for classfication. Evaluation metrics used is F1-score. Kernel can be found [here](https://www.kaggle.com/bparesh/costa-rican-household-poverty-eda-basic-model). Also, my rank was 72 in this competetion.
 
 
 ### Web Scraping
