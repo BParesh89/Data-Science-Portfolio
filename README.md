@@ -7,7 +7,7 @@ They are presented in the form of jupyter notebooks(.ipynb) ,python scripts(.py)
 ### Machine learning
 
 #### Telecom Customer Churn
-This project is related to Churn analysis of customers in Telecom industry. Dataset for Telecom customer churn is picked up from [IBM Watson Sample datasets](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/). This dataset contains total 7043 records. Each record is unique for a customer identified using feature customerID. Here the target column is Churn which contain values 'Yes' or 'No',so we need to classify whether customer with churn or not.Evaluation metric used here is roc-auc score and accuracy.I have compared performance of RandomForest and Logistic regression algorithms.This [notebook](http://nbviewer.jupyter.org/github/BParesh89/kaggle/blob/master/TelcoCustomerChurn/TelcoCustomerChurn.ipynb) contains analysis and prediction of this project.
+This project is related to Churn analysis of customers in Telecom industry. Dataset for Telecom customer churn is picked up from [IBM Watson Sample datasets](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/). This dataset contains total 7043 records. Each record is unique for a customer identified using feature customerID. Here the target column is Churn which contain values 'Yes' or 'No',so we need to classify whether customer with churn or not.Evaluation metric used here is roc-auc score and accuracy.I have compared performance of RandomForest and Logistic regression algorithms.This [notebook](http://nbviewer.jupyter.org/github/BParesh89/kaggle/blob/master/TelcoCustomerChurn/TelcoCustomerChurn.ipynb) contains analysis and prediction of this project and data is present in [project repository](https://github.com/BParesh89/kaggle/tree/master/TelcoCustomerChurn) in csv format.
 
 
 #### Google Analytics Customer Revenue Prediction(EDA only using Google BigQuery)
@@ -20,4 +20,6 @@ This [competetion](https://www.kaggle.com/c/costa-rican-household-poverty-predic
 
 ### Web Scraping
 
-#### Scraping NIFTY50 stocks data from moneycontrol
+#### Scraping NIFTY50 stocks data from moneycontrol & Visualizing Top Gainers and Loosers
+
+In this mini project, I have scraped data of NIFTY50(National Stock Exchange) stocks from moneycontrol.com. First, I have scraped the stock names and url from [base page](https://www.moneycontrol.com/stocks/marketstats/indexcomp.php?optex=NSE&opttopic=indexcomp&index=9) of NIFTY50 from moneycontrol.After it, I have scraped some data like open-price, prev-close, today's low/high,up/down% etc from each stock webpage on moneycontrol into a dataframe. Then, I have made a bar plot of daily top gainers and top loosers. This is my [project repository](https://github.com/BParesh89/WebScraping-with-BeautifulSoup).
